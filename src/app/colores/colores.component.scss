@@ -1,0 +1,13 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+  background-color: rgba(6, 107, 170, 0.697);
+  background-image: url('fondocolores.jpg'); // Ruta a tu imagen en la carpeta 'assets'
+  background-size: contain; // Ajusta la imagen al tamaño de la pantalla
+  background-position: center; // Centra la imagen horizontalmente y verticalmente
+  background-repeat: no-repeat; // Evita la repetición de la imagen de fondo
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+  margin: 0 auto;
+}

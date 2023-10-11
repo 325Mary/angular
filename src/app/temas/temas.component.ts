@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,OnInit, Inject } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-temas',
@@ -6,12 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./temas.component.scss']
 })
 export class TemasComponent {
-   selection: Component | null=null
-   constructor() {}
+   
+   constructor(@Inject(Router) private router: Router) {}
    //elemento de entrada
    ngOnInit() {}
 
-   generateComponent() {
-    console.log(this.selection);
-   }
+   
+  
 }
+   

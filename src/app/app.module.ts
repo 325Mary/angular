@@ -7,6 +7,7 @@ import { TemasComponent } from './temas/temas.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { NavmenuComponent} from "./navmenu/navmenu.component";
+import{VocalesComponent}from "./vocales/vocales.component"
 import { PagenotfoundComponent } from "./pagenotfound/pagenotfound.component";
 
 @NgModule({
@@ -14,6 +15,7 @@ import { PagenotfoundComponent } from "./pagenotfound/pagenotfound.component";
     AppComponent,
     TemasComponent,
     NavmenuComponent,
+    VocalesComponent,
     PagenotfoundComponent
   ],
   imports: [

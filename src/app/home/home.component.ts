@@ -12,8 +12,9 @@ export class HomeComponent {
   ngOnInit(){
 
   }
-  navegar(){
-    this.router.navigate(['/temas'])
+  // Función que se ejecuta cuando se hace clic en el botón
+  onStartClick() {
+    this.router.navigate(['/temas/']);
   }
 
 }

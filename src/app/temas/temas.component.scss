@@ -17,23 +17,10 @@ body {
   margin: 0 auto;
 }
 
-.img-fluid {
-  position: absolute;
-  right: 0;
-  top: 0;
-  max-width: 200px;
-  height: auto;
-  margin: 120px;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  border-radius: 100px;
-  height: 190px;
+.container {
+  float: right !important;
 }
 
-
-
-  .custom-image {
-    width: 100%; /* Establece un ancho del 100% para que las imágenes se ajusten al ancho de la tarjeta. */
-    height: auto; /* Mantiene la relación de aspecto original de la imagen. */
-  }
-
+.btn {
+  max-width: 200px;
+}
