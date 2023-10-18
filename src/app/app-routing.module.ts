@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { TemasComponent } from './temas/temas.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
@@ -7,6 +9,8 @@ import { VocalesComponent } from "./vocales/vocales.component";
 import { FrutasComponent } from "./frutas/frutas.component";
 import { ColoresComponent } from "./colores/colores.component";
 import { AnimalesComponent } from "./animales/animales.component";
+
+
 
 const routes: Routes = [
   //rutas de navegacion

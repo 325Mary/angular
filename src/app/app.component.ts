@@ -6,10 +6,11 @@ import { Route, Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
-  title = 'AppIngles';
-  constructor(private router: Router) {}
 
+export class AppComponent implements OnInit{
+  // title = 'AppIngles';
+  // constructor(private router: Router) {}
+  
   ngOnInit() {
   }
  

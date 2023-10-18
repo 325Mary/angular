@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {letras } from "../modelo/letra";
 
 @Component({
   selector: 'app-vocales',
@@ -8,9 +7,7 @@ import {letras } from "../modelo/letra";
   styleUrls: ['./vocales.component.scss']
 })
 export class VocalesComponent {
-  
   letra: string = '';
-
   constructor() {}
 
   ngOnInit() {

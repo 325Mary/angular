@@ -1,3 +1,5 @@
-export class  letras{
+export class  letra{
     letra: string ="";
+    
 }
+
