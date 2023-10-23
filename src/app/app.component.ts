@@ -8,6 +8,7 @@ import { Route, Router } from '@angular/router';
 })
 
 export class AppComponent implements OnInit{
+  title: any;
   // title = 'AppIngles';
   // constructor(private router: Router) {}
   

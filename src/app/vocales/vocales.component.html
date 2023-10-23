@@ -9,8 +9,8 @@
             </video>
             <div class="card-body">
             <h2 class="card-title text-center ">A</h2>
-            <textarea [(ngModel)]="letra"></textarea>
-            {{letra}}
+            <textarea [(ngModel)]="letraA" (input)="compararSimilitudA()"></textarea>
+            <p>Resultado:{{resultadoA}} </p>
         </div> 
       </div>
         
@@ -20,28 +20,30 @@
         </video>
         <div class="card-body">
         <h2 class="card-title text-center ">E</h2>
-        <textarea [(ngModel)]="letra"></textarea>
-        {{letra}}
+        <textarea [(ngModel)]="letraE" (input)="compararSimilitudE()"></textarea>
+        <p>Resultado:{{resultadoE}} </p>
     </div> 
   </div>
+
   <div class="card mx-2 mr-lg-5 mb-20">
     <video controls>
     <source src="../assets/letra I.mp4" type="video/mp4" >
     </video>
     <div class="card-body">
     <h2 class="card-title text-center ">I</h2>
-    <textarea [(ngModel)]="letra"></textarea>
-    {{letra}}
+    <textarea [(ngModel)]="letraI" (input)="compararSimilitudI()"></textarea>
+        <p>Resultado:{{resultadoI}} </p>
     </div> 
     </div>
+
     <div class="card mx-2 mr-lg-5 mb-20">
         <video controls>
         <source src="../assets/letra O.mp4" type="video/mp4" >
         </video>
         <div class="card-body">
         <h2 class="card-title text-center ">O</h2>
-        <textarea [(ngModel)]="letra"></textarea>
-        {{letra}}
+        <textarea [(ngModel)]="letraO" (input)="compararSimilitudO()"></textarea>
+        <p>Resultado:{{resultadoO}} </p>
     </div> 
     </div>
 
@@ -51,8 +53,8 @@
         </video>
         <div class="card-body">
         <h2 class="card-title text-center ">U</h2>
-        <textarea [(ngModel)]="letra"></textarea>
-        {{letra}}
+        <textarea [(ngModel)]="letraU" (input)="compararSimilitudU()"></textarea>
+        <p>Resultado:{{resultadoU}} </p>
     </div> 
   </div>
 
