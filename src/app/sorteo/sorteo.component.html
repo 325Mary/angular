@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Monto</th>
+      <th>Fecha</th>
+      <th>Código de Sorteo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let compra of compras">
+      <td>{{ compra.id }}</td>
+      <td>{{ compra.monto }}</td>
+      <td>{{ compra.fecha }}</td>
+      <td>{{ compra.codigoSorteo }}</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<button (click)="realizarSorteo()">Realizar Sorteo</button>

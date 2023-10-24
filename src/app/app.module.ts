@@ -10,8 +10,10 @@ import {VocalesComponent}from "./vocales/vocales.component";
 import {FrutasComponent } from "./frutas/frutas.component";
 import { PagenotfoundComponent } from "./pagenotfound/pagenotfound.component";
 import { Routes } from '@angular/router';
-import { FormsModule } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SorteoComponent } from "./sorteo/sorteo.component";
+import { GasolinaComponent } from "./gasolina/gasolina.component";
+import { CompraService } from "./servicecompra/servicecompra.component";
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { FormsModule } from '@angular/forms';
     NavmenuComponent,
     VocalesComponent,
     FrutasComponent,
+    SorteoComponent,
+    GasolinaComponent,
     PagenotfoundComponent,
   ],
   imports: [
@@ -28,8 +32,11 @@ import { FormsModule } from '@angular/forms';
     NoopAnimationsModule,
     MaterialModule,
     FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    CompraService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
